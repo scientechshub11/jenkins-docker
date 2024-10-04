@@ -5,4 +5,5 @@ WORKDIR /user/src/app
 COPY package*.json .
 RUN npm ci
 COPY . .
-CMD ["node" "app.js"]
+EXPOSE 9000
+CMD ["node" "index.js"]
