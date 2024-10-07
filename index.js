@@ -10,5 +10,12 @@ app.get("/test", async(req,res)=>{
     res.json({
         "msg":"jenkins and github connected successfully!!!",
         "details":"jenkins I did"
-    })
-})
+    });
+});
+
+app.get("/my-test", async(req,res)=>{
+    res.json({
+        "msg":"jenkins and github connected successfully!!!",
+        "details":"jenkins I did"
+    });
+});
